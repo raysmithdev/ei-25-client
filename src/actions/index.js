@@ -11,6 +11,7 @@ const fetchUserSuccess = (user) => {
 
 export const fetchUser = () => {
   return (dispatch) => {
+    console.log(API_BASE_URL);
 
     // https://api-demo-ei-25.herokuapp.com/user
     // inside we can async operations
